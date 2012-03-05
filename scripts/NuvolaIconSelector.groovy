@@ -1,12 +1,10 @@
 /*
- * griffon-nuvola: Nuvola icons Grifofn plugin
+ * griffon-nuvola: Nuvola icons Griffon plugin
  * Copyright 2010 and beyond, Andres Almiray
  *
- * SmartGWT is free software; you can redistribute it and/or modify it
+ * griffon-nuvola is free software; you can redistribute it and/or modify it
  * under the terms of the GNU Lesser General Public License version 3
- * as published by the Free Software Foundation.  SmartGWT is also
- * available under typical commercial license terms - see
- * smartclient.com/license.
+ * as published by the Free Software Foundation.
  *
  * This software is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -22,8 +20,6 @@ import javax.swing.JFrame
 import groovy.swing.SwingBuilder
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver
 import java.util.concurrent.CountDownLatch
-
-includeTargets << griffonScript("Init")
 
 target(nuvolaIconSelector: "Displays all Nuvola icons") {
     def categories = [:]
